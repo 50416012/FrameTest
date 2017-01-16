@@ -3,6 +3,7 @@ package frametest;
 import java.awt.Button;
 import java.awt.FlowLayout;
 import java.awt.Frame;
+import java.awt.Label;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -30,9 +31,13 @@ public class Frame_view extends Frame implements ActionListener, WindowListener 
 		add(text1);
 		add(text2);
 		add(button1);
+		add(new Label("‘«‚µZ“š‚¦"));
 		add(text3);
+		add(new Label("ˆø‚«Z“š‚¦"));
 		add(text4);
+		add(new Label("Š|‚¯Z“š‚¦"));
 		add(text5);
+		add(new Label("Š„‚èZ“š‚¦"));
 		add(text6);
 		button1.addActionListener(this); // ƒ{ƒ^ƒ“‰Ÿ‚µ‚½‚Æ‚«‚ÉactionPerformed
 										 // ŒÄ‚Ño‚µ
